@@ -2,14 +2,24 @@ body{
     background-color: rgba(81, 136, 153, 0.863);
 }
 
-body h3 {
-    background-color: rgb(8, 83, 112);
-}
-body h2{
+h3, h2 {
     background-color: rgb(8, 83, 112);
     font-family: sans-serif;
     font-weight: 200px;
+    text-align: center;
 }
-body h1{
+h1{
     font-weight: 300px;
+}
+ol{
+    list-style: none;
+    text-align: center;
+}
+img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    object-position: cover;
+    /*cover coloca em uma posição que identifica ser o melhor*/
+    /*classe é uma variavel de padronizar os elementos*/
 }
