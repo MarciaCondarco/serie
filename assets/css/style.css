@@ -2,24 +2,24 @@ body{
     background-color: rgba(81, 136, 153, 0.863);
 }
 
-h3, h2 {
+h3, h2, h1 {
     background-color: rgb(8, 83, 112);
     font-family: sans-serif;
     font-weight: 200px;
     text-align: center;
 }
-h1{
-    font-weight: 300px;
-}
 ol{
     list-style: none;
     text-align: center;
 }
-img{
+.galeria{
     height: 300px;
     width: 300px;
     object-fit: cover;
     object-position: cover;
     /*cover coloca em uma posição que identifica ser o melhor*/
     /*classe é uma variavel de padronizar os elementos*/
+}
+.capa{
+    width: 100%;
 }
